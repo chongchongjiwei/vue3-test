@@ -7,6 +7,6 @@
 import { useRouter } from 'vue-router';
  
 const router = useRouter()
-const handleClick = () => router.push({ path: '/' })
+const handleClick = () => router.push({ path: '/login' })
 
 </script>

@@ -6,13 +6,13 @@
 </template>
  
 <script lang="ts" setup>
-import { useStore } from "../store";
+import { useStore } from "../store";//自己写的
 import { TestApi, GetDynamicRoutes } from '../apis'
-import { useRouter } from 'vue-router'
+import { useRouter } from 'vue-router' //官方的
 import { computed } from "@vue/reactivity";
 import { onMounted } from "vue";
  
-const router = useRouter()
+const router = useRouter()//官方
 const store = useStore()
  
 // 动态路由表
