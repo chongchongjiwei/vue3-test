@@ -41,6 +41,10 @@ const mock: Array<MockMethod> = [
                     path: '/PageThree',
                     name: 'PageThree',
                     component: 'PageThree.vue',
+                },{
+                    path: '/Pagefour',
+                    name: 'Pagefour',
+                    component: 'pagefour.vue',
                 }
             ]
  

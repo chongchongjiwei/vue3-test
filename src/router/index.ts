@@ -1,6 +1,7 @@
 import { RouteRecordRaw, createRouter, createWebHistory } from 'vue-router'
 import { useStore } from "../store";
 import { GetDynamicRoutes } from '../apis'
+import four from '@/views/login.vue'
 // 静态路由表
 const routes: Array<RouteRecordRaw> = [
     {
@@ -9,7 +10,8 @@ const routes: Array<RouteRecordRaw> = [
         component: () => import('../views/HomePage.vue')
     }, {
         path: '/login',
-        component: () => import('../views/login.vue')
+        // component: () => import('../views/login.vue')
+        component:four
     },{
         path:'/:catchAll(.*)',
         component:()=>import('../views/errors/404.vue')
