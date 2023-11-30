@@ -1,6 +1,6 @@
 <!-- src/App.vue -->
 <script setup lang="ts">
-import HelloWorld from "@/components/HelloWorld.vue";
+
 
 import { useCountStore } from "@/store/counter";
 const counterStore = useCountStore();

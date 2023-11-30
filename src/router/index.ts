@@ -2,7 +2,8 @@ import { RouteRecordRaw, createRouter, createWebHistory } from 'vue-router'
 import { useStore } from "../store";
 import { GetDynamicRoutes } from '../apis'
 import four from '@/views/login.vue'
-import test from '@/Components/11.vue'
+import countFVue from '../views/countF.vue';
+
 // 静态路由表
 const routes: Array<RouteRecordRaw> = [
     {
@@ -14,12 +15,17 @@ const routes: Array<RouteRecordRaw> = [
         // component: () => import('../views/login.vue')
         component:four
     },
+    // {
+    //     path: '/test11',
+    //     // component: () => import('../views/login.vue')
+    //     component:Test11
+    // },
     {
-        path: '/11',
-        // component: () => import('../views/login.vue')
-        component:test
-    }
-    ,{
+        path: '/count',
+        // component: () => import('../views/countF.vue')
+        component:countFVue
+    },
+    {
         path:'/:catchAll(.*)',
         component:()=>import('../views/errors/404.vue')
     }

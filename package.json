@@ -11,6 +11,7 @@
   "dependencies": {
     "@vue/reactivity": "^3.3.8",
     "axios": "^1.6.2",
+    "element-plus": "^2.4.3",
     "pinia": "^2.1.7",
     "vue": "^3.3.8",
     "vue-router": "^4.2.5"
@@ -21,6 +22,7 @@
     "mockjs": "^1.1.0",
     "typescript": "^5.2.2",
     "unplugin-auto-import": "^0.17.1",
+    "unplugin-icons": "^0.18.0",
     "unplugin-vue-components": "^0.25.2",
     "vite": "^5.0.0",
     "vite-plugin-mock": "2.9.8",
